@@ -1,0 +1,6 @@
+/*
+Setup the burgers.views.js to use the props data you need to pass into it.
+
+Create a button in burgers.views.js that will submit the user input into the database.
+
+*/
