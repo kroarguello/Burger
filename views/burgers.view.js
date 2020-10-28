@@ -10,23 +10,7 @@ module.exports = function (props) {
  return /*html*/ `
   <h1>Eat-Da-Burger</h1>
 
-  <h2>Burgers</h2>
-
-  <ul>
-    ${burgers
-      .filter(cat => !cat.sleepy)
-      .map(cat => renderCat(cat))
-      .join("")}
-  </ul>
-
-  <h2>Devoured</h2>
-
-  <ul>
-  ${cats
-      .filter(cat => cat.sleepy)
-      .map(cat => renderCat(cat))
-      .join("")}
-  </ul>
+  
 
   <h2>Add a Burger</h2>
   <form class="create-form">
